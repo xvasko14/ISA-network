@@ -1,0 +1,19 @@
+
+IRC bot s logováním SYSLOG
+Autor: Michal Vaško(xvasko14)
+Dátum:20.11.2017
+
+Popis programu:
+Jednoduchý IRC bot ktorý hľadá definované klúčové slová na IRC kanále a potom zasiela správy s týmito kľúčmi na SYSLOG server.
+Obsahuje taktiež funkcie ?today a ?msg.
+
+Príklad spustenia:
+./isabot irc.freenode.net:6667 "#ISAChannel,#IRC" -s 192.168.0.1 -l "ip,isa"
+
+Odovzdané súbory:
+Readme
+Makefile
+main.cpp
+main.h
+manual.pdf
+
